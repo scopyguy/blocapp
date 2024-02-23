@@ -21,8 +21,7 @@ class Video {
   }
 
   String publishedAt() {
-    String publicationDate =
-        "2023-10-27"; 
+    String publicationDate = "2023-10-27";
     if (publicationDate == null || publicationDate.isEmpty) {
       return "N/A";
     } else {
